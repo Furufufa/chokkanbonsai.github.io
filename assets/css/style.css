@@ -1,0 +1,74 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.primer-cuarto {
+
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto {
+    width: 40%; /* Ajusta el ancho del área del texto según tus necesidades */
+    color: white;
+    text-align: justify;
+}
+
+.imagen {
+
+    width: 40%;
+}
+
+.caracteristicas {
+
+    background-color:rgb(56, 57, 58) ;
+    flex: content;
+    text-align: center;
+    padding: 3%;
+}
+
+.icono1{
+    font-size: 80px;
+    background-color:rgb(56, 57, 58) ;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    
+    padding: 20px;
+}
+
+.icono1{
+
+    text-align: center;
+}
+
+.icono1 i { 
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.icono1 span {
+    font-size: 18px;
+    color: azure;
+}
